@@ -1,8 +1,9 @@
 import {Button} from '../src/Components/Button';
+import {Home} from '../src/Pages/Home';
 function App() {
   return (
     <div>
-      <Button text="olá mundo"/>
+      <Home/>
     </div>
   );
 }
