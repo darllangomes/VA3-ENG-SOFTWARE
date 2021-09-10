@@ -1,11 +1,10 @@
 import ilustrationImg  from '../assets/illustration.svg';
 import logoImg from '../assets/logo.svg';
-import googleIconImg from '../assets/google-icon.svg';
 import Constants from '../Constants';
-import '../styles/auth.scss';
 import { Button } from '../Components/Button';
+import '../styles/NewRoom.scss';
 
-export function Home(){
+export function NewRoom(){
   return (
     <div id="page-auth">
       <aside>
@@ -15,20 +14,15 @@ export function Home(){
       </aside>
       <main>
         <div className="main-content">
-          <img src={logoImg} alt="LetMeAsk" />
-            <button className="create-room">
-              <img src={googleIconImg}/>
-              {Constants.CRIE_SALA_COM_GOOGLE}
-            </button>
-          <div className="separator">
-              {Constants.OU_ENTRE_EM_UMA_SALA}
-          </div>
+          <img src={logoImg} alt="Letmeask"/>
+          <h2>{Constants.CRIAR_NOVA_SALA}</h2>
           <form>
             <input type="text" placeholder="Digite o código da sala"/>
             <Button>
               {Constants.ENTRAR_SALA}
             </Button>
           </form>
+          <p>{Constants.QUER_ENTRAR_SALA_EXISTENTE} <a href=".">{Constants.CLIQUE_AQUI}</a></p>
         </div>
       </main>
     </div>

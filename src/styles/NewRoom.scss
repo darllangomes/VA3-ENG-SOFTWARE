@@ -50,6 +50,13 @@
     >img{
       align-self: center;
     }
+
+    h2{
+      font-size:24px;
+      margin: 64px 0 24px;
+      font-family: 'Poppins', sans-serif;
+    }
+
     form{
       input{
         height:50px;
@@ -64,6 +71,14 @@
       input,button{
         width: 100%;
       }
+    }
+    p {
+      font-size:14 px;
+      color: #737370;
+      margin-top:  16px;
+    }
+    a{
+      color:#e559f9;
     }
   }
 
