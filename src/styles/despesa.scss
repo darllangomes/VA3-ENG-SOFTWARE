@@ -1,0 +1,39 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form{
+  margin-top:30px;
+  width: 100%;
+  height:40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+form{
+  input::before{
+    padding: 55px;
+  }
+}
+
+.item{
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+.gambiarra{
+  height:25px;
+}
+
+p{
+  font-size:16px;
+  color:#595959;
+  font-weight: 700;
+}
+button{
+  margin-top: 15px;
+  margin-left: 35px;
+  margin-right: 35px;
+}

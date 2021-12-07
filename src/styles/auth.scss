@@ -5,7 +5,8 @@
 
   aside{
     flex:7;
-    background:#835afd;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 6%, rgba(0,212,255,1) 100%);
     color: #fff;
 
     display: flex;
@@ -97,6 +98,7 @@
     font-weight: 500;
     background:#ea4335;
     color:#FFF;
+    width: 100%;
 
     display: flex;
     justify-content: center;
