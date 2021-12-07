@@ -5,4 +5,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Necessidade
 
 Diante de uma análise do que precisaria ser feito para a terceira VA, bem como uma facilitação de flux de trabalho.\
-Foi necessário migrar o projeto para tecnologia ReactJS no frontend.\
+Foi necessário migrar o projeto para tecnologia ReactJS no frontend.
