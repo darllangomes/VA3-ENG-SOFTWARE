@@ -1,0 +1,35 @@
+{
+  "renda": {
+    "id": 1,
+    "value": "6300"
+  },
+  "despesas": [
+    {
+      "id": 1,
+      "titulo": "compra sorvete",
+      "categoria": "Cartão de crédito",
+      "data": "07/12/2021",
+      "valor": 25
+    },
+    {
+      "id": 2,
+      "titulo": "estacionamento shopping",
+      "data": "10/11/2021",
+      "categoria": "Veículo",
+      "valor": 20
+    }
+  ],
+  "meta": {
+    "porcentagem": 50
+  },
+  "categorias": [
+    "Educação",
+    "Saúde",
+    "Alimentação",
+    "Veículo",
+    "Contas",
+    "Aluguel",
+    "Condominio",
+    "Cartão de crédito"
+  ]
+}

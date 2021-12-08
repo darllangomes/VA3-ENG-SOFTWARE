@@ -5,6 +5,8 @@ import '../styles/despesa.scss';
 import { Link } from 'react-router-dom';
 import { FormControl, InputAdornment, InputLabel, makeStyles, Typography, TextField } from '@material-ui/core';
 import React, { ChangeEvent, useState } from 'react';
+import axios from 'axios';
+import { useHistory } from "react-router-dom";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -28,6 +30,11 @@ export function Renda(){
 
   const [value, setValue] = useState<string>(Constants.EMPTY_STRING);
   const [ocorrencia, setOcorrencia] = useState('');
+  const history = useHistory();
+
+  const onClickBackButton = () =>{
+    history.push('/');
+}    
 
 
   const onChangeEvent = (event: ChangeEvent<HTMLInputElement>) => {
@@ -37,10 +44,9 @@ export function Renda(){
     setOcorrencia("MENSAL")
   }
   const sendRenda = () =>{
-    
+    const res =  axios.post('http://localhost:3004/renda', { "id":1,"value": value})
+    console.log(res)
   }
-  console.log(value)
-  console.log(ocorrencia)
   return (
     <>
           <div className='container'>
@@ -62,6 +68,9 @@ export function Renda(){
 
             </form>
         </div>
+        <div className={'footer'}> 
+                  <Button onClick={onClickBackButton}>Voltar</Button>
+                </div>
     </>
 
   );
