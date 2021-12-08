@@ -1,7 +1,7 @@
 
 import Constants from '../Constants';
 import { Button } from '../Components/Button';
-import '../styles/despesa.scss';
+import '../styles/despesa.css';
 import { Link } from 'react-router-dom';
 import { FormControl, InputAdornment, InputLabel, makeStyles, Typography, TextField } from '@material-ui/core';
 import React, { ChangeEvent, useState } from 'react';

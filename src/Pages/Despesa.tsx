@@ -1,8 +1,8 @@
 
 import Constants from '../Constants';
 import { Button } from '../Components/Button';
-import '../styles/despesa.scss';
-import { FormControl, InputAdornment, InputLabel, makeStyles, Typography, TextField, Select, MenuItem } from '@material-ui/core';
+import '../styles/despesa.css';
+import { FormControl, InputAdornment, makeStyles, Typography, TextField, Select, MenuItem } from '@material-ui/core';
 import React, { ChangeEvent, useState } from 'react';
 
 

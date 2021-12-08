@@ -1,6 +1,6 @@
 import { InputAdornment, TextField, Typography } from '@material-ui/core';
 import  { ChangeEvent, useState, useEffect } from 'react';
-import "../styles/Metas.scss";
+import "../styles/Metas.css";
 import axios from 'axios';
 import {Button} from '../Components/Button';
 import { useHistory } from "react-router-dom";
