@@ -1,6 +1,6 @@
 import googleIconImg from '../assets/google-icon.svg';
 import Constants from '../Constants';
-import '../styles/auth.scss';
+import '../styles/auth.css';
 import { Button } from '../Components/Button';
 import { useHistory } from 'react-router-dom';
 import {auth, firebase} from '../services/firebase';

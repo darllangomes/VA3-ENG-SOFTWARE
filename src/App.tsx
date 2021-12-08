@@ -26,7 +26,7 @@ function App() {
           <Route path="/metas" component={Metas}>
             <Metas />
           </Route>
-          <Route path="/plano" component={Dashboard}>
+          <Route path="/dashboard" component={Dashboard}>
             <Dashboard />
           </Route>
         </testContext.Provider>

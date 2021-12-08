@@ -1,7 +1,7 @@
 {
   "renda": {
     "id": 1,
-    "value": "6300"
+    "value": "5000"
   },
   "despesas": [
     {
@@ -22,14 +22,19 @@
   "meta": {
     "porcentagem": 50
   },
-  "categorias": [
-    "Educação",
-    "Saúde",
-    "Alimentação",
-    "Veículo",
-    "Contas",
-    "Aluguel",
-    "Condominio",
-    "Cartão de crédito"
-  ]
+  "categorias":
+  {
+    "id":1,
+   "categorias": [
+        "Educação",
+        "Saúde",
+        "Alimentação",
+        "Veículo",
+        "Contas",
+        "Aluguel",
+        "Condominio",
+        "Cartão de crédito"
+      ]
+  } 
+ 
 }
